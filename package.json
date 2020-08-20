@@ -37,7 +37,7 @@
     }
   },
   "lint-staged": {
-    "*.+(js|jsx)": [
+    "*.+(js|jsx|css)": [
       "eslint --fix ./src"
     ],
     "*.+(js|jsx|json|css|md)": [
