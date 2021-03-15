@@ -1,14 +1,15 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 
+import configStore from 'redux/store';
 import './App.css';
 
+import Counter from 'components/Counter';
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        A linted and pretty React Boilerplate with git hooks
-      </header>
-    </div>
+    <Provider store={configStore()}>
+      <Counter />;
+    </Provider>
   );
 }
 
