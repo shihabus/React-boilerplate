@@ -5,3 +5,13 @@ This is React CRA project, pre-configured with linter and prettier. Git hooks ar
 ## [What is linter(ESLint)](https://dev.to/codermonkey/linters-don-t-wait-to-test-4mej)
 
 ## [What is Prettier](https://dev.to/codermonkey/prettier-an-opinionated-code-formatter-4fmf)
+
+#### Added
+
+- redux
+- react-redux
+- redux-logger
+- redux-logger-extensions
+- redux-saga
+- reselect
+- styled components
